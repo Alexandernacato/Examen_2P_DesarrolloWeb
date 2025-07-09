@@ -1,0 +1,8 @@
+   <div class="container">
+      <h1>🚗 Velocímetro Digital</h1>
+      <app-interfaz [speed]="speed()" />
+      <app-controles
+        [onAcelerar]="acelerar"
+        [onFrenar]="frenar"
+        [onReiniciar]="reiniciar" />
+    </div>

@@ -1,0 +1,15 @@
+ .velocimetro {
+      width: 100%;
+      max-width: 350px;
+      margin: 1.5rem auto;
+      padding: 2rem;
+      border-radius: 12px;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .low-speed    { background-color: #4caf50; }
+    .medium-speed { background-color: #2196f3; }
+    .high-speed   { background-color: #ff9800; }
+    .danger-speed { background-color: #f44336; }
